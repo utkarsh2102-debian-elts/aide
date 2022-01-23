@@ -1,3 +1,11 @@
+aide (0.16~a2.git20130520-3+deb8u1) jessie-security; urgency=high
+
+  * Non-maintainer upload by the ELTS team.
+  * Apply backported patch to fix heap-based buffer
+    overflow in base64 functions. (CVE-2021-45417)
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Mon, 24 Jan 2022 00:10:07 +0530
+
 aide (0.16~a2.git20130520-3) unstable; urgency=medium
 
   * cron.daily/aide:
